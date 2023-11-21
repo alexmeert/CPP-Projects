@@ -1,0 +1,20 @@
+Base and Derived Classes:
+
+- OOP allows you to define classes from existing classes, this is called INHERITANCE
+- Inheritance allows you to define a general class (i.e. a base class) and later extend it to more specialized classes (i.e derived classes)
+- EX: a base class Geometric and derived classes Triangle and Circle
+- Private data fields in the base class cannot be accessed by the derived classes, so you need to include public accessor/mutator functions if defined
+- Polymorphism is the idea that a derived class can behave like itself and the base class at the same time
+- Overloading a function has the same name but different parameters
+- Redefining a function has the same name and same parameters but different code in the function (used for classes)
+- Abstract classes
+
+
+Syntax:
+class DERIVED: public BASE
+so...
+class Circle: public GeometricObject
+
+
+Dynamic Binding:
+-
